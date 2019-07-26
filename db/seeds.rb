@@ -15,11 +15,19 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "lime")
+Ingredient.create(name: "salt")
+Ingredient.create(name: "sugar")
+Ingredient.create(name: "cayanne pepper")
+Ingredient.create(name: "baileys")
+Ingredient.create(name: "tonic water")
+Ingredient.create(name: "coke")
+Ingredient.create(name: "sprite")
 
-Cocktail.create(name: "Gin n' Tonic")
-Cocktail.create(name: "Mojito")
-Cocktail.create(name: "Moscow Mule")
-Cocktail.create(name: "Negroni")
+
+
+# Cocktail.create(name: "Gin n' Tonic")
+# Cocktail.create(name: "Mojito")
+# Cocktail.create(name: "Moscow Mule")
+# Cocktail.create(name: "Negroni")
 
 
