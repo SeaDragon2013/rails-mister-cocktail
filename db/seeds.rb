@@ -23,11 +23,9 @@ Ingredient.create(name: "tonic water")
 Ingredient.create(name: "coke")
 Ingredient.create(name: "sprite")
 
-
-
-# Cocktail.create(name: "Gin n' Tonic")
-# Cocktail.create(name: "Mojito")
-# Cocktail.create(name: "Moscow Mule")
-# Cocktail.create(name: "Negroni")
-
-
+Cocktail.create(name: "Michael Jackson")
+Cocktail.create(name: "Bob Marley")
+Cocktail.create(name: "MC Hot Dog")
+Cocktail.create(name: "Chris Wu")
+Cocktail.create(name: "Jimi Hendrix")
+Cocktail.create(name: "Justin Beiber")
