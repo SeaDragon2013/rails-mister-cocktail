@@ -1,2 +1,89 @@
 // Import page-specific CSS files here.
 @import "home";
+// Banner
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+// cards
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+// navbar
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+// Title
+h1 {
+  text-align: center
+}
+
+a {
+ color: orange;
+ font-size: 20px
+}
+
+.card-category {
+  transition: transform ease .5s;
+}
+.card-category:hover {
+  transform: rotate(45deg);
+}
+
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+
+
+
+
